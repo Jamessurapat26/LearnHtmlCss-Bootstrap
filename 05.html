@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+</head>
+<style>
+    table,td{
+        /*border: 1px solid black;*/
+        border-collapse: collapse;
+    }
+    table{
+        width: 600px;
+    }
+    .h-30{
+        height: 30px;
+    }
+    .center{
+        text-align: center;
+    }
+    .w-30{
+        width: 33.33%;
+    }
+    .white{
+        background-color:aliceblue;
+    }
+    .black{
+        background-color: rgb(65, 61, 61);
+    }
+    .green{
+        background-color: rgb(113, 226, 179);
+    }
+    .text-green{
+        color: rgb(113, 226, 179);
+        
+    }
+    .text-white{
+        color: aliceblue;
+        text-align: center;
+    }
+    .h-33{
+        height: 70px;
+    }
+    .w30{
+        width: 30px;
+    }
+    .w400{
+        width: 400px;
+    }
+    .margin{
+        margin: 30px;
+    }
+    ul {
+        list-style: none; /* Remove default bullets */
+    }
+    ul li::before {
+        content: "\2022";
+        color:rgb(113, 226, 179);
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -30px;
+    }
+
+    
+    
+</style>
+<body>
+    <table>
+        <tr class="h-30 white">
+            <td colspan="2"></td>
+            
+        </tr>
+        <tr class="white">
+            <td rowspan="2" >
+                <div class="center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png" width="80px" alt="">
+                </div>
+            </td>
+            <td class="w-30">
+                <div>
+                    Google <span class="text-green"> Pellentesque habitant morbi tristique</span>
+                </div>
+            </td>
+        </tr>
+        <tr class="white">
+            
+            <td class="w-30">
+                <ul>
+                    <li>twitter</li>
+                    <li>facebook</li>
+                    <li>youtube</li>
+                </ul>
+            </td>
+        </tr>
+        <tr class="white">
+            <td colspan="2" class="h-30"></td>
+        </tr>
+        <tr class="h-30">
+            <td class="black">
+                <div class="text-white">
+                    www.google.com
+                </div>
+            </td>
+            <td class="green">
+                <div class="text-white">
+                    www.google.com
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <div class="margin">
+
+    </div>
+
+
+    <table>
+        <tr class="h-33 white">
+            <td colspan="4"></td>
+        </tr>
+        <tr class="h-33">
+            <td class="w30 green "></td>
+            <td class="black">
+                <div >
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png" width="70px" alt="logo">
+                </div>
+            </td>
+            <td class="w400 black">
+                <div class="text-white">
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                </div>
+            </td>
+            <td class="w-30 black">
+                <div class="text-white">
+                    Pellentesque habitant 
+                </div>
+
+            </td>
+        </tr>
+        <tr class="h-33 white">
+            <td colspan="4"></td>
+        </tr>
+    </table>
+</body>
+</html>
